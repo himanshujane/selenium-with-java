@@ -7,7 +7,7 @@
         <methods>
           <include name="teardown"/>
           <include name="launchApp"/>
-          <include name="prod_deleteBag"/>
+          <include name="prod_deleteBag" invocation-numbers="0 1"/>
           <include name="inReport"/>
         </methods>
       </class> <!-- specs.zazatest1 -->

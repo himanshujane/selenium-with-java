@@ -23,7 +23,7 @@ public class commonLib {
 	@BeforeSuite
 	public void inReport() {
 		System.out.println("Before Suite - Report To be implemented");
-		ereports = new ExtentReports("C:\\Users\\h.jain\\eclipse-workspace\\poc\\Reports\\Report_"+ getdatetimestamp() + ".html"); 
+		ereports = new ExtentReports(System.getProperty("user.dir")+"\\Reports\\Report_"+ getdatetimestamp() + ".html"); 
 	}
 
 	@BeforeMethod

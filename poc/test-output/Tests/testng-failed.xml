@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tests]" guice-stage="DEVELOPMENT" verbose="5">
+  <test thread-count="5" name="Zaza Sanity(failed)" verbose="5">
+    <classes>
+      <class name="specs.zazatest1">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchApp"/>
+          <include name="test1"/>
+          <include name="inReport"/>
+        </methods>
+      </class> <!-- specs.zazatest1 -->
+    </classes>
+  </test> <!-- Zaza Sanity(failed) -->
+</suite> <!-- Failed suite [Tests] -->

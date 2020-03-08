@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-08T19:45:32 IST" name="Default suite" finished-at="2020-03-08T19:46:28 IST" duration-ms="56025">
+    <groups>
+    </groups>
+    <test started-at="2020-03-08T19:45:32 IST" name="Default test" finished-at="2020-03-08T19:46:28 IST" duration-ms="56025">
+      <class name="specs.zazatest1">
+        <test-method is-config="true" signature="inReport()[pri:0, instance:specs.zazatest1@7db12bb6]" started-at="2020-03-08T19:45:31 IST" name="inReport" finished-at="2020-03-08T19:45:32 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inReport -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:specs.zazatest1@7db12bb6]" started-at="2020-03-08T19:45:51 IST" name="launchApp" finished-at="2020-03-08T19:45:53 IST" duration-ms="2886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="prod_deleteBag(java.util.Map)[pri:0, instance:specs.zazatest1@7db12bb6]" started-at="2020-03-08T19:45:53 IST" name="prod_deleteBag" data-provider="dp" finished-at="2020-03-08T19:46:05 IST" duration-ms="11668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{scriptName=deleteBag, TC_ID=1.0, Execute=y, URL=https://test.zaza.rocks/c2bfdb9980570b83df8e57c33b94e189}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prod_deleteBag -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:specs.zazatest1@7db12bb6]" started-at="2020-03-08T19:46:05 IST" name="teardown" finished-at="2020-03-08T19:46:08 IST" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:specs.zazatest1@7db12bb6]" started-at="2020-03-08T19:46:08 IST" name="launchApp" finished-at="2020-03-08T19:46:10 IST" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="prod_deleteBag(java.util.Map)[pri:0, instance:specs.zazatest1@7db12bb6]" started-at="2020-03-08T19:46:10 IST" name="prod_deleteBag" data-provider="dp" finished-at="2020-03-08T19:46:22 IST" duration-ms="11689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{scriptName=deleteBag, TC_ID=1.0, Execute=y, URL=https://test.zaza.rocks/0f586901c1613cfe4ec99ed2fc71ebb2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prod_deleteBag -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:specs.zazatest1@7db12bb6]" started-at="2020-03-08T19:46:22 IST" name="teardown" finished-at="2020-03-08T19:46:28 IST" duration-ms="5633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- specs.zazatest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
